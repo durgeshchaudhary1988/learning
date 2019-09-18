@@ -146,7 +146,7 @@ CLS, is a related specification that defines a subset of common types and progra
 
 # Glossary
 ## Abbreviations
-1. BCL : Base Class Libraries
+1. BCL   : Base Class Libraries
 1. CIL : Common Intermediate Language
 1. CLR : Common Language Runtime
 1. CLS : Common Language Specification
