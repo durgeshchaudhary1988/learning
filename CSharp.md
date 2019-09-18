@@ -97,7 +97,7 @@ CLS, is a related specification that defines a subset of common types and progra
    - `ref` locals and returns
    - lightweight throwaway variables `discards`
    - Throw expressions
-  - C# 7.1
+ - C# 7.1
    - Program's main method can be `async`
    - `default` allow for initialization of any type
    - tuple name can be inferred
