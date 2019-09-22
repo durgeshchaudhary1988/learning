@@ -102,6 +102,80 @@ CLS, is a related specification that defines a subset of common types and progra
    - `default` allow for initialization of any type
    - tuple name can be inferred
 
+.Net binaries (.dll or .exe) contains platform-agnostic Intermediate Language (IL) and type Metadata
+
+C# code is compiled (using csc.exe) and Assembly is created which contains IL instructions which is then compiled on the fly into meaningful CPU instructions using JIT compiler. JIT compiler is leveraged by .Net Runtime and compiler is optimized for underlying platform.
+
+Metadata contains documentation of all external assemblies required, version number, copyright info and so on.
+
+### Types defined in CTS
+ - CTS Class Types
+ - CTS Interface Types
+ - CTS Structure Types
+ - CTS Enumeration Types
+ - CTS Delegate Types
+
+#### CTS Type Members
+ - constructor
+ - finalizer
+ - static
+ - constructor
+ - nested type
+ - operator
+ - method
+ - property
+ - indexer
+ - field
+ - read-only field
+ - constant
+ - event
+
+#### CTS Data Type
+- System.Byte
+- System.SByte
+- System.Int16
+- System.Int32
+- System.Int64
+- System.UInt16
+- System.UInt32
+- System.UInt64
+- System.Single
+- System.Double
+- System.Object
+- System.Char
+- System.String
+- System.Decimal
+- System.Boolean
+
+CLS is set of rules and one of the important being
+
+ > CLS rules apply only to those part of a type that are exposed outside the defining assembly.
+
+ In order to instruct compiler to check for CLS compliance use below statement
+
+```csharp
+[assembly: CLSCompliant(true)]
+```
+
+### CLR
+
+CLR is runtime which is collection of services that are required to execute compiled unit of code. mscoree.dll is loaded automatically when an assembly is referenced for use.
+
+ - Resolves location of assembly
+ - Finding requested type within binary by reading metadata
+ - Layout type in Memory
+ - Compiles CIL into platform specific instructions
+ - Perform security checks
+ - Execute code
+
+Namespace starting with `Microsoft` contain types that are used to interact with services unique to Windows Operating System.
+
+### Open source .Net distributions
+
+ - Mono
+ - Xamarin SDK
+ - .Net Core
+
 ## Building C# Applications
 ## Core C# Programming Constructs, Part I
 ## Core C# Programming Constructs, Part II
@@ -146,12 +220,43 @@ CLS, is a related specification that defines a subset of common types and progra
 
 # Glossary
 ## Abbreviations
-1. BCL   : Base Class Libraries
-1. CIL : Common Intermediate Language
-1. CLR : Common Language Runtime
-1. CLS : Common Language Specification
-1. COM : Component Object Model
-1. CTS : Common Type System
-1. JIT : Just In Time
-1. LINQ : Language Integrated Query
-1. VB : Visual Basic
+> BCL : Base Class Libraries
+
+> CIL : Common Intermediate Language (also called MSIL or IL)
+
+> CLI : Common Language Infrastructure
+
+> CLR : Common Language Runtime
+
+> CLS : Common Language Specification
+
+> COM : Component Object Model
+
+> CTS : Common Type System
+
+> GAC : Global Assembly  Cache (`C:\Windows\Assembly\GAC`)
+
+> IL : Intermediate Language
+
+> ILDASM : Intermediate Language Disassembler Utility
+
+> JIT : Just In Time
+
+> LINQ : Language Integrated Query
+
+> MSIL : Microsoft Intermediate Language (also called IL or CIL)
+
+> VB : Visual Basic
+
+## Assemblies reference
+> **csc.exe** compiler for C#
+
+> **ildasm.exe** allows you to load up any .Net assembly and investigate its content.
+
+> **mscoree.dll** Common Object Runtime Execution Engine
+
+> **mscorlib.dll** Contains core types and core data types
+
+> **ngen.exe**
+
+> **vbc.exe** compiler for VB
