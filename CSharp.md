@@ -1,5 +1,5 @@
 ### Table of Contents
- - [ ] The Philosophy of .NET
+ - [X] [The Philosophy of .NET](#the-philosophy-of-.net)
  - [ ] Building C# Applications
  - [ ] Core C# Programming Constructs, Part I
  - [ ] Core C# Programming Constructs, Part II
