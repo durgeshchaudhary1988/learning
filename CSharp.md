@@ -1,7 +1,7 @@
 ### Table of Contents
  - [X] [The Philosophy of .NET](#the-philosophy-of-net)
  - [ ] Building C# Applications
- - [ ] Core C# Programming Constructs, Part I
+ - [ ] [Core C# Programming Constructs, Part I](#core-c-programming-constructs-part-i)
  - [ ] Core C# Programming Constructs, Part II
  - [ ] Understanding Encapsulation
  - [ ] Understanding Inheritance and Polymorphism
@@ -178,6 +178,117 @@ Namespace starting with `Microsoft` contain types that are used to interact with
 
 ## Building C# Applications
 ## Core C# Programming Constructs, Part I
+
+#### Points to note
+ - All keywords are lowercase `public` `private` `lock` and so on
+ - Namespace, Type and MemberName starts with InitCap `System` `SqlClient` `Main` `ReadLine` and so on
+ - Returning 0 from Main means success else Error
+ - By default Application returns 0 if nothing is returned from Program
+ - Return value is stored in Environment Variable `%ERRORLEVEL%`
+
+Following Main signatures are perfectly valid.
+
+```csharp
+static void Main();
+static void Main(string[] args);
+static int Main();
+static int Main(string[] args);
+
+// Async Main Methods starting C# 7.1
+static Task Main();
+static Task<int> Main();
+static Task Main(string[] args);
+static Task<int> Main(string[] args)
+```
+
+Sample Batch file to read `%ERRORLEVEL%`
+
+```bash
+SomeAppNameWithPath.exe
+@if "%ERRORLEVEL%" == "0" goto success
+:fail
+  echo return value = %ERRORLEVEL%
+  goto end
+:success
+  echo return value = %ERRORLEVEL%
+  goto end
+:end
+```
+
+Some Environment members
+
+```csharp
+Environment.ExitCode
+Environment.Is64BitOperatingSystem
+Environment.MachineName
+Environment.NewLine
+Environment.SystemDirectory
+Environment.UserName
+Environment.OSVersion
+Environment.GetLogicalDrives()
+Environment.ProcessorCount
+Environment.Version
+```
+
+Both set of statements are equivalent
+```csharp
+var str = string.Format("{0}",Name);
+Console.WriteLine(str);
+
+Console.WriteLine("{0}",Name);
+```
+
+Some formatting examples
+```
+{0:c}    $99,999
+{0:d9}   000099999
+{0:f3}   99999.000
+{0:n}    99,999.00
+{0:E}    9.999900E+004
+{0:e}    9.999900E+004
+{0:X}    1869F
+{0:x}    1869f
+```
+Declaring multiple variables
+```
+bool a = true, b = false, c = a;
+```
+
+> `default` literal is newly introduced in C# 7.1
+
+```csharp
+int x = default;
+```
+
+#### Data Type Class Hierarchy
+
+ - Object
+  - Value  Type
+    - bool
+    - int
+    - char
+    - decimal
+    - DateTime
+    - Enum and Structures
+  - Type
+  - String
+  - Array
+  - Exception
+  - Delegate
+    - MultiCastDelegate
+
+#### Difference in Parse and TryParse
+TryParse returns bool is successful and expects out parameter to be passed
+
+> System.Numerics.dll defines structs named `BigInteger` and `Complex`
+```csharp
+BigInteger x = BigInteger.Parse("99999999999999999999999999999999999999999999999999");
+BigInteger y = BigInteger.Multiply(x,BigInteger.Parse("88888888888888888888888888888888888888888888888888"));
+var z = x * y;
+x.IsEven;
+x.IsPowerOf2;
+```
+
 ## Core C# Programming Constructs, Part II
 ## Understanding Encapsulation
 ## Understanding Inheritance and Polymorphism
