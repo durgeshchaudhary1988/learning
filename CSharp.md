@@ -1,8 +1,8 @@
 ### Table of Contents
  - [X] [The Philosophy of .NET](#the-philosophy-of-net)
  - [ ] Building C# Applications
- - [ ] [Core C# Programming Constructs, Part I](#core-c-programming-constructs-part-i)
- - [ ] Core C# Programming Constructs, Part II
+ - [X] [Core C# Programming Constructs, Part I](#core-c-programming-constructs-part-i)
+ - [ ] [Core C# Programming Constructs, Part II](#core-c-programming-constructs-part-ii)
  - [ ] Understanding Encapsulation
  - [ ] Understanding Inheritance and Polymorphism
  - [ ] Understanding Structured Exception Handling
@@ -280,6 +280,7 @@ int x = default;
 #### Difference in Parse and TryParse
 TryParse returns bool is successful and expects out parameter to be passed
 
+#### BigInteger and Complex
 > System.Numerics.dll defines structs named `BigInteger` and `Complex`
 ```csharp
 BigInteger x = BigInteger.Parse("99999999999999999999999999999999999999999999999999");
@@ -287,6 +288,102 @@ BigInteger y = BigInteger.Multiply(x,BigInteger.Parse("8888888888888888888888888
 var z = x * y;
 x.IsEven;
 x.IsPowerOf2;
+```
+
+#### Digit Separators
+We can now write numbers separated with _(for int, long, double and decimal) for readability purpose. Both statements are equivalent in below example
+```csharp
+int i = 12_345;
+long j = 98_582_123;
+```
+
+#### Binary Literals
+Like Hexadecimal(0x) we can now define Binary(0b) numbers as well;
+```csharp
+int i = 0b0001000;
+int j = 0b00_101_110;
+```
+
+#### Equality Checks
+When we check for equality (== or !=) in case of reference type objects, their reference are compared if they are pointing to same object. In case of string they are overridden to check for content;
+```csharp
+Employee e1 = new Employee();
+Employee e2 = new Employee();
+
+e1 == e2; // returns false
+
+string s1 = "Durgesh";
+string s2 = "Durgesh";
+
+s1 == s2; // returns true
+```
+#### Immutable strings
+> Strings are immutable i.e. once a string has been initialized it can not be changed, a new string is generated everytime.
+
+#### String Interpolation
+
+```csharp
+string s1 = string.Format("{0} is a {1}",name,gender);
+string s2 = $"{name} is a {1}";
+string s3 = $"Hello {name.ToUpper()}, you  are a {gender}";
+```
+
+#### Type Conversion
+
+```csharp
+int Add(int a, int b)
+{
+  return a + ;
+};
+byte x = 10;
+byte y = 10;
+Add(x,y); // Auto Widening
+byte z =Add(x,y); // Compile Time Error
+
+byte p = (byte)Add(x,y); // It works fine Explicit Type Conversion
+
+x = 100;
+y = 250;
+Add(x,y); // Auto Widening
+byte p = (byte)Add(x,y); // Incorrect Value with no OverFlow Error
+
+p =checked((byte)Add(x,y)); // Exception if overflow
+
+checked
+{
+  // Multiple statements where checked needs to be allowed
+  unchecked
+  {
+    // Ignore check
+  }
+}
+```
+
+`var` keyword is used to implicitly declare variables and can be used only inside Methods or Properties. It can not be used as return type and field members.
+
+`?:` is conditional Operator
+
+`switch` cases must have break, return or goto to avoid falling through next statement
+
+`switch` now also supports pattern matching and can then be combined with condition as well. e.g.
+
+```csharp
+object o = "SomeString"; // or 85 or 85.95
+switch(o)
+{
+  case int i when i == 85:
+    // if o is int and equals 85
+    break;
+  case int i:
+    // if o is int and not equals 85
+    break;
+  case string s:
+    // if o is string
+    break;
+  case double d:
+    // if o is double
+    break;
+}
 ```
 
 ## Core C# Programming Constructs, Part II
