@@ -3,7 +3,7 @@
  - [ ] Building C# Applications
  - [X] [Core C# Programming Constructs, Part I](#core-c-programming-constructs-part-i)
  - [ ] [Core C# Programming Constructs, Part II](#core-c-programming-constructs-part-ii)
- - [ ] Understanding Encapsulation
+ - [ ] [Understanding Encapsulation](understanding-encapsulation)
  - [ ] Understanding Inheritance and Polymorphism
  - [ ] Understanding Structured Exception Handling
  - [ ] Working with Interfaces
@@ -388,6 +388,22 @@ switch(o)
 
 ## Core C# Programming Constructs, Part II
 ## Understanding Encapsulation
+ - In class fields should not be defined as public but defined private
+ - Properties should be created to provide controlled access
+ - Methods can now be defined using Expression e.g. `void Do() => Console.WriteLine("Doing");`
+ - constructors can now be defined using Expression e.g. `public Employee(string name) => Name = name;`
+ - constructors can be chained using this keyword e.g.
+ ```csharp
+ public Employee():this(null,0){}
+ public Employee(string name):this(name,0){}
+ public Employee(int age):this(null,age){}
+ public Employee(string name,int age)
+ {
+      Name = name;
+      Age = age;
+ }
+ ```
+
 ## Understanding Inheritance and Polymorphism
 ## Understanding Structured Exception Handling
 ## Working with Interfaces
