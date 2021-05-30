@@ -82,4 +82,4 @@ I have not set as such any target for Gilt Funds but hope to have investment mor
  - SIP
  - Lumpsum as and when there is drop in NAV to average out
 
-*Illustration: No fixed monthly gain*
+*Illustration: No fixed monthly gain, but @10% CAGR it is INR 10,000 monthly for INR 12,00,000*
