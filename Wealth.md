@@ -1,17 +1,17 @@
 ### Draft Version
 
 - [ ] Debt Exposure
- - [ ] Liquid Funds
- - [ ] Money Market Funds
- - [ ] Gilt Funds
+  - [ ] Liquid Funds
+  - [ ] Money Market Funds
+  - [ ] Gilt Funds
 - [ ] Gold Exposure
- - [ ] Sovereign Gold Bonds(SGB)
- - [ ] Gold ETF
- - [ ] Gold Mutual Funds
- - [ ] Gold Wallets
- - [ ] Physical Gold
+  - [ ] Sovereign Gold Bonds(SGB)
+  - [ ] Gold ETF
+  - [ ] Gold Mutual Funds
+  - [ ] Gold Wallets
+  - [ ] Physical Gold
 - [ ] Equity Exposure
- - [ ] Indexed based investment
+  - [ ] Indexed based investment
 
 # Investment for Wealth Creation and Retirement
 I have come to a conclusion that my investment over the period of time should consist of:
