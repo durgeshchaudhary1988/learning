@@ -1,17 +1,19 @@
 ### Draft Version
 
-- [ ] Debt Exposure
-  - [ ] Liquid Funds
-  - [ ] Money Market Funds
-  - [ ] Gilt Funds
-- [ ] Gold Exposure
-  - [ ] Sovereign Gold Bonds(SGB)
-  - [ ] Gold ETF
-  - [ ] Gold Mutual Funds
-  - [ ] Gold Wallets
-  - [ ] Physical Gold
-- [ ] Equity Exposure
-  - [ ] Indexed based investment
+- [X] [Debt Exposure](#debt-exposure)
+  - [X] [Liquid Funds](#liquid-funds)
+  - [X] [Money Market Funds](#money-market-funds)
+  - [X] [Gilt Funds](#gilt-funds)
+- [X] [Gold Exposure](#gold-exposure)
+  - [X] [Sovereign Gold Bonds(SGB)](#sovereign-gold-bondssgb)
+  - [X] [Gold ETF](#gold-etf)
+  - [X] [Gold Mutual Funds](#gold-mutual-funds)
+  - [X] [Gold Wallets](#gold-wallets)
+  - [X] [Physical Gold](#physical-gold)
+- [ ] [Equity Exposure]
+  - [ ] [Indexed based investment]
+  - [ ] [Target based Exit Strategy]
+  - [ ] [Entry Strategy]
 
 # Investment for Wealth Creation and Retirement
 I have come to a conclusion that my investment over the period of time should consist of:
