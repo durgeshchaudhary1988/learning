@@ -5,15 +5,34 @@
  - Gujarat
    - [ ] Somnath => Gir Somnath
    - [ ] Nageshvara => Dwarka
+ - Jammu & Kashmir
+   - [x] Vaishno Devi
+   - [x] Bhairav Nath
+   - [x] Sarover Portico Hotel
  - Jharkhand
    - [ ] Baidyanath => Deoghar
  - Maharashtra
    - [ ] Trimbakeshwar => Nashik
    - [ ] Bhimashankar => Bhimashankar
    - [ ] Grishneshwar => Aurangabad
+   - [x] Gateway of India
+   - [x] Siddhi Vinayak
+   - [x] Mahalaxmi
+   - [x] Sea Green View
  - Madhya Pradesh
    - [ ] Mahakaleswar => Ujjain
    - [ ] Omkareshwar => Khandwa
+ - New Delhi
+   - [x] Adya Katyayni Mandir
+   - [x] Kali Mandir
+   - [x] Bhairo Mandir
+   - [x] India Gate
+   - [ ] Akshar Dham
+   - [ ] Lal Quilla
+   - [ ] Zoo
+ - Rajasthan
+   - [x] Jal Mahal
+   - [x] The Lalit Hotel
  - Tamil Nadu
    - [ ] Ramanathaswamy => Rameshwaram
  - Uttarakhand
