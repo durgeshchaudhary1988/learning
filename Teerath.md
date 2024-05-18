@@ -5,6 +5,9 @@
  - Gujarat
    - [ ] Somnath => Gir Somnath
    - [ ] Nageshvara => Dwarka
+   - [ ] Zoo
+ - Himachal Pradesh
+   - [ ] Shimla
  - Jammu & Kashmir
    - [x] Vaishno Devi
    - [x] Bhairav Nath
@@ -30,12 +33,18 @@
    - [ ] Akshar Dham
    - [ ] Lal Quilla
    - [ ] Zoo
+   - [ ] Tara Mandal
  - Rajasthan
    - [x] Jal Mahal
    - [x] The Lalit Hotel
+   - [ ] Khatu Shyam
  - Tamil Nadu
    - [ ] Ramanathaswamy => Rameshwaram
  - Uttarakhand
    - [ ] Kedarnath => Rudraprayag
+   - [ ] Mussoorie
  - Uttar Pradesh
    - [ ] Vishwanath => Varanasi
+   - [ ] Vrindavan
+   - [ ] Haridwar
+   - [ ] Rishikesh
