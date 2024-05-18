@@ -1,22 +1,22 @@
 
 ## Places we want to visit
  - Andhra Pradesh
-   - [ ] Mallikarjuna|Srisailam
+   - [ ] Mallikarjuna => Srisailam
  - Gujarat
    - [ ] Somnath => Gir Somnath
-   - [ ] Nageshvara|Dwarka
+   - [ ] Nageshvara => Dwarka
  - Jharkhand
-   - [ ] Baidyanath|Deoghar
+   - [ ] Baidyanath => Deoghar
  - Maharashtra
-   - [ ] Trimbakeshwar|Nashik
-   - [ ] Bhimashankar|Bhimashankar
-   - [ ] Grishneshwar|Aurangabad
+   - [ ] Trimbakeshwar => Nashik
+   - [ ] Bhimashankar => Bhimashankar
+   - [ ] Grishneshwar => Aurangabad
  - Madhya Pradesh
-   - [ ] Mahakaleswar|Ujjain
-   - [ ] Omkareshwar|Khandwa
+   - [ ] Mahakaleswar => Ujjain
+   - [ ] Omkareshwar => Khandwa
  - Tamil Nadu
-   - [ ] Ramanathaswamy|Rameshwaram
+   - [ ] Ramanathaswamy => Rameshwaram
  - Uttarakhand
-   - [ ] Kedarnath|Rudraprayag
+   - [ ] Kedarnath => Rudraprayag
  - Uttar Pradesh
-   - [ ] Vishwanath|Varanasi
+   - [ ] Vishwanath => Varanasi
