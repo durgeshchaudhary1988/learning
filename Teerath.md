@@ -1,8 +1,9 @@
-### Dwadash Jyotirlingam
 
-Name|Place|State|Visited
-----|-----|-----|-------
-Somnath|Gir Somnath|Gujarat|<ul><li>- [ ] </li></ul>
+## Places we want to visit
+ - Gujarat
+   - [ ] Somnath|Gir Somnath||<ul><li>- [ ] </li></ul>
+
+
 Mallikarjuna|Srisailam|Andhra Pradesh|<ul><li>- [ ] </li></ul>
 Mahakaleswar|Ujjain|Madhya Pradesh|<ul><li>- [ ] </li></ul>
 Omkareshwar|Khandwa|Madhya Pradesh|<ul><li>- [ ] </li></ul>
