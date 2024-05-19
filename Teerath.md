@@ -1,11 +1,19 @@
 
 ## Places we want to visit
+ - Andaman and Nicobar Islands
  - Andhra Pradesh
    - [ ] Mallikarjuna => Srisailam
+ - Arunachal Pradesh
+ - Assam
+ - Bihar
+ - Chhattisgarh
+ - Dadra and Nagar Haveli and Daman and Diu
+ - Goa
  - Gujarat
    - [ ] Somnath => Gir Somnath
    - [ ] Nageshvara => Dwarka
    - [ ] Zoo
+ - Haryana
  - Himachal Pradesh
    - [ ] Shimla
  - Jammu & Kashmir
@@ -14,6 +22,13 @@
    - [x] Sarover Portico Hotel
  - Jharkhand
    - [ ] Baidyanath => Deoghar
+ - Karnataka
+ - Kerala
+ - Ladakh
+ - Lakshadweep
+ - Madhya Pradesh
+   - [ ] Mahakaleswar => Ujjain
+   - [ ] Omkareshwar => Khandwa
  - Maharashtra
    - [ ] Trimbakeshwar => Nashik
    - [ ] Bhimashankar => Bhimashankar
@@ -22,9 +37,10 @@
    - [x] Siddhi Vinayak
    - [x] Mahalaxmi
    - [x] Sea Green View
- - Madhya Pradesh
-   - [ ] Mahakaleswar => Ujjain
-   - [ ] Omkareshwar => Khandwa
+ - Manipur
+ - Meghalaya
+ - Mizoram
+ - Nagaland
  - New Delhi
    - [x] Adya Katyayni Mandir
    - [x] Kali Mandir
@@ -34,17 +50,24 @@
    - [ ] Lal Quilla
    - [ ] Zoo
    - [ ] Tara Mandal
+ - Odisha
+ - Puducherry
+ - Punjab
  - Rajasthan
    - [x] Jal Mahal
    - [x] The Lalit Hotel
    - [ ] Khatu Shyam
+ - Sikkim
  - Tamil Nadu
    - [ ] Ramanathaswamy => Rameshwaram
- - Uttarakhand
-   - [ ] Kedarnath => Rudraprayag
-   - [ ] Mussoorie
+ - Telangana
+ - Tripura
  - Uttar Pradesh
    - [ ] Vishwanath => Varanasi
    - [ ] Vrindavan
    - [ ] Haridwar
    - [ ] Rishikesh
+ - Uttarakhand
+   - [ ] Kedarnath => Rudraprayag
+   - [ ] Mussoorie
+ - West Bengal
