@@ -23,6 +23,7 @@
  - Jharkhand
    - [ ] Baidyanath => Deoghar
  - Karnataka
+   - [ ] Murdeshwar Temple
  - Kerala
  - Ladakh
  - Lakshadweep
